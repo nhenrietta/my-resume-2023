@@ -1,0 +1,28 @@
+.art-pic {
+  width: 240px;
+}
+
+.art-preview {
+  width: 250px;
+  display: inline-block;
+  margin-top:40px;
+}
+
+.artist {
+  margin-top:6px;
+  margin-bottom:0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(67, 67, 67);
+}
+
+.artwork-title {
+  font-size: 16px;
+}
+
+p {
+  font-family: Roboto, Arial;
+  margin-top:0;
+  margin-bottom: 0;
+  text-align: center;
+}

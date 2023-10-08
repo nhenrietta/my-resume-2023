@@ -1,0 +1,765 @@
+body {
+  margin: 0 0 0 0;
+  padding-top: 35px;
+  padding-left: 40px;
+  padding-bottom: 35px;
+  background-color: rgb(249,249,249);
+
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 100px;
+}
+
+
+[id="heart"] {
+  position: absolute;
+  left: -100px;
+}
+
+[for="heart"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="heart"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="heart"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="heart"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="heart"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+
+@keyframes heart {0%, 17.5% {font-size: 0;}}
+
+
+[id="h2"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h2"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h2"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h2"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h2"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h2"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h2 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h3"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h3"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h3"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h3"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h3"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h3"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h3 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h4"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h4"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h4"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h4"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h4"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h4"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h4 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h5"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h5"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h5"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h5"]::selection {
+  color: none;
+  background: transparent;
+}
+
+[for="h5"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h5"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h5 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h6"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h6"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h6"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h6"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h6"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h6"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h6 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h7"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h7"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h7"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h7"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h7"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h7"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h2 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h8"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h8"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h8"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h8"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h8"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h8"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h8 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h9"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h9"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h9"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h9"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h9"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h9"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h9 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h10"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h10"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h10"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h10"]::selection {
+  color: none;
+  background: transparent;
+}
+
+[for="h10"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h10"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h10 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h11"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h11"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h11"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h11"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h11"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h11"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h11 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h12"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h12"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h12"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h12"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h12"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h12"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h12 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h13"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h13"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h13"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h13"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h13"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h13"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h13 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h14"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h14"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h14"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h14"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h14"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h14"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h14 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h15"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h15"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h15"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h15"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h15"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h15"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h15 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h16"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h16"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h16"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h16"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h16"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h16"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h16 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h17"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h17"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h17"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h17"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h17"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h17"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h17 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h18"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h18"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h18"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h18"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h18"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h18"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h18 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h19"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h19"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h19"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h19"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h19"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h19"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h19 {0%, 17.5% {font-size: 0;}}
+
+
+[id="h20"] {
+  position: absolute;
+  left: -200px;
+}
+
+[for="h20"] {
+  color:rgb(172, 165, 165);
+  cursor: pointer;
+  font-size: 2em;
+  align-self: center;  
+  transition: color 0.2s ease-in-out;
+}
+
+[for="h20"]:hover {
+  color:rgb(172, 165, 165);
+}
+
+[for="h20"]::selection {
+  color: none;
+  background: transparent;
+}
+
+
+[for="h20"]::moz-selection {
+  color: none;
+  background: transparent;
+}
+
+[id="h20"]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+}
+
+@keyframes h20 {0%, 17.5% {font-size: 0;}}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;   
+  column-gap: 38px;
+  row-gap: 20px;  
+}
+
+.art-grid-info {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.heart-shape {
+  display: inline-block;
+  margin-top: 0;
+}
+
+@media (max-width: 750px) {
+  .art-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width:999px) {
+  .art-grid {
+    grid-template-columns: 1fr 1fr 1fr; }
+}
+
+@media (min-width: 1000px) {
+  .art-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

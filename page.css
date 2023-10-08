@@ -1,0 +1,25 @@
+.p {
+    margin-left:35px;
+    margin-right:35px;
+}
+
+.page-address {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.page-address-more {
+    margin-top:9px;
+    margin-bottom:15px;
+}
+
+.page-address-me {
+    margin-bottom:6px;
+    font-size: 20px;
+}
+
+.image {
+    float: left;
+    margin-right: 30px;
+}
